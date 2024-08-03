@@ -1,0 +1,32 @@
+.feedback {
+  background-color: #252538;
+  padding: 0px; /* Increased padding for better spacing */
+  border-radius: 10px;
+  max-height: 288px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+ margin-top: 0px;
+}
+
+.feedback h3 {
+  margin-bottom: 15px;
+}
+
+.feedback-card {
+  /* margin-bottom: 10px; Provide spacing between feedback cards */
+  overflow-y: auto;
+}
+
+.feedback-card h4 {
+  margin: 0px;
+  font-size: 9px;
+}
+
+.feedback-card p {
+  margin: 0px ;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.feedback-card .rating span {
+  color: #ffd700;
+}

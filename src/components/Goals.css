@@ -1,0 +1,51 @@
+.container {
+  background-color: #252538;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom:10px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1c2e;
+  padding: 10px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.goals-icon {
+  background-color: #ff6f61; /* color for Goals */
+  border-radius: 50%;
+}
+
+.dishes-icon {
+  background-color: #3b5998; /* color for Popular Dishes */
+  border-radius: 50%;
+}
+
+.menus-icon {
+  background-color: #1abc9c; /* color for Menus */
+  border-radius: 50%;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  background-color:cornsilk;
+  border-radius: 15px;
+  background-image: url('../components/arrow.png'); /* update the path to your arrow icon image */
+  background-size: cover;
+}

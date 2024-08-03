@@ -1,0 +1,74 @@
+.overview {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure items are in a single line */
+  gap: 15px; /* Adjust gap as needed */
+  justify-content: space-between;
+  /* background-color: #181818; Adjust background color to match image */
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.overview-card {
+  display: flex;
+  align-items: center;
+  background-color: #252538;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom:10px;
+  min-width: 80px; /* Adjust min-width to match design */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.overview-icon1 {
+  font-size: 36px;
+  color: #21618c;
+  background-color: #aed6f1;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.overview-icon2 {
+  font-size: 36px;
+  color: #21618c;
+  background-color: #82e0aa;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.overview-icon3 {
+  font-size: 36px;
+  color: #21618c;
+  background-color: #f1948a;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.overview-icon4 {
+  font-size: 36px;
+  color: #21618c;
+  background-color: #f7dc6f;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.overview-card p {
+  margin: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.overview-card h3 {
+  margin: 5px 0 0 0;
+  color: #fff;
+  font-size: 1.5rem;
+}

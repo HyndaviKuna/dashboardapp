@@ -1,0 +1,27 @@
+.activity {
+  background-color: #252538;
+  padding: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+/* .chart-h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+} */
+.chart-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.chart-dropdown select {
+  background-color: #2a2a3b;
+  border: none;
+  padding: 3px;
+  color: #fff;
+  border-radius: 0px;
+}
