@@ -12,36 +12,48 @@ const Overview = () => {
         <div className="icon-container">
           <ShoppingCartIcon className="overview-icon1" />
         </div>
-        <div>
+        <div className='total-orders'>
           <p>Total Orders</p>
-          <h3>75</h3>
+          <div className="stats-contain">
+            <h3>75</h3>
+            <p className='stat'>3%</p>
+          </div>
         </div>
       </div>
       <div className="overview-card">
         <div className="icon-container">
           <LocalShippingIcon className="overview-icon2" />
         </div>
-        <div>
-          <p>Total Delivered</p>
-          <h3>70</h3>
+        <div className='total-orders'>
+          <p className='total-del'>Total Delivered</p>
+          <div className="stats-contain">
+            <h3>70</h3>
+            <p className='stat-red'>3%</p>
+          </div>
         </div>
       </div>
       <div className="overview-card">
         <div className="icon-container">
           <CancelIcon className="overview-icon3" />
         </div>
-        <div>
+        <div className='total-orders'>
           <p>Total Cancelled</p>
-          <h3>5</h3>
+          <div className="stats-contain">
+            <h3>5</h3>
+            <p className='stat'>3%</p>
+          </div>
         </div>
       </div>
       <div className="overview-card">
         <div className="icon-container">
           <MonetizationOnIcon className="overview-icon4" />
         </div>
-        <div>
+        <div className='total-orders'>
           <p>Total Revenue</p>
-          <h3>$12k</h3>
+          <div className="stats-contain">
+            <h3>$12k</h3>
+            <p className='stat-red'>3%</p>
+          </div>
         </div>
       </div>
     </div>

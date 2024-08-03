@@ -1,7 +1,9 @@
 .overview {
   display: flex;
-  flex-wrap: nowrap; /* Ensure items are in a single line */
-  gap: 15px; /* Adjust gap as needed */
+  flex-wrap: nowrap;
+  /* Ensure items are in a single line */
+  gap: 15px;
+  /* Adjust gap as needed */
   justify-content: space-between;
   /* background-color: #181818; Adjust background color to match image */
   padding: 0px;
@@ -10,13 +12,16 @@
 
 .overview-card {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: #252538;
-  padding: 30px;
+  padding: 5px 30px;
   border-radius: 10px;
-  margin-bottom:10px;
-  min-width: 80px; /* Adjust min-width to match design */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+  margin-bottom: 10px;
+  min-width: 180px;
+  /* Adjust min-width to match design */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add shadow for better appearance */
 }
 
 .icon-container {
@@ -71,4 +76,53 @@
   margin: 5px 0 0 0;
   color: #fff;
   font-size: 1.5rem;
+}
+
+.overview p {
+  font-size: 14px !important;
+}
+
+.total-orders {
+  width: 100%;
+}
+
+.stats-contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.stat {
+  color: #00e200 !important;
+}
+
+.stat::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 15px;
+  bottom: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #00e200;
+  transform: translate(-50%, -50%);
+}
+
+.stat-red {
+  color: #ff0000(255, 73, 73);
+}
+
+.stat-red::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 15px;
+  bottom: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ff0000;
+  transform: translate(-50%, -50%);
 }

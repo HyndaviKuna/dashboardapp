@@ -29,7 +29,7 @@ const RecentOrders = () => {
               <td>{order.customer}</td>
               <td>{order.orderNo}</td>
               <td>{order.amount}</td>
-              <td className={order.status.toLowerCase()}>{order.status}</td>
+              <td className={`${order.status.toLowerCase()}`}> <p className={order.status === 'Cancelled' || order.status === 'Pending' ? `order-status status-red` : `order-status`}>{order.status}</p></td>
             </tr>
           ))}
         </tbody>

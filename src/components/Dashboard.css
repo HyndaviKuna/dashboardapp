@@ -8,7 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 7px;
-  background-color: black; /* This is optional if body already has a black background */
+  background-color: black;
+  /* This is optional if body already has a black background */
 }
 
 .main-content {
@@ -16,7 +17,8 @@ body {
   flex-wrap: wrap;
 }
 
-.left-content, .right-content {
+.left-content,
+.right-content {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -24,7 +26,7 @@ body {
 
 .left-content {
   margin-right: 10px;
-  flex: 50%;
+  flex: 40%;
 }
 
 /* @media (max-width: 700px) {
@@ -32,5 +34,3 @@ body {
     flex: 1 1 100%;
   }
 } */
-
-
